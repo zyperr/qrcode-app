@@ -18,7 +18,7 @@ app.title("Qr Code generator")
 
 # logica
 
-app.iconbitmap('./icono-app.ico')
+app.iconbitmap('./icono.ico')
 
 def generate_qrs():
     qr_url = input_url.get()
